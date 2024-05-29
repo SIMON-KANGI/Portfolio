@@ -5,17 +5,16 @@ import Socials from './Socials'
 function About() {
   return (
     
-    <section className="grid grid-cols-2">
-       <div className='border-y-3 border-gray-600 rounded-md hover:border-rose-600'>
-          <Image
-            src="/ndovu.jpeg"
-            width="500"
-            height="500"
-           objectFit="cover"
-            alt="ndovu"
-          
-          />
-        </div>
+    <section className="grid lg:grid-cols-2 grid-cols-1">
+       <div className='border-y-4 w-fit border-gray-800 p-2 rounded-md hover:border-rose-600'>
+      <Image
+        src="/ndovu.jpeg"
+        width={500}
+        height={500}
+        objectFit="cover"
+        alt="ndovu"
+      />
+    </div>
         <div>
           <h1 className='text-slate-100 text-xl py-2'>About Me</h1>
           <h1 className='text-3xl'><span className='text-rose-600'>Ambitious,</span> Collaborative <br/> Software 
