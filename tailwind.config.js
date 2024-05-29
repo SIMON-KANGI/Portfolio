@@ -12,6 +12,9 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        sans: ['Roboto Slab', 'sans-serif'], // Assuming 'Roleway' is the custom font
+      },
     },
   },
   plugins: [],
