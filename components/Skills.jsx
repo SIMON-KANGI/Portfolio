@@ -1,10 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
 import { Card, CardBody } from '@chakra-ui/react'
+import Chakra from './chakra/chakra'
 function Skills() {
   return (
-    <div className='grid lg:grid-cols-6 grid-cols-2 p-4'>
-      <Card className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
+   
+        <div className='grid lg:grid-cols-6 grid-cols-2 p-4'>
+  
+      <Card bg="stone.800" className=' flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
         <CardBody>
           <Image
             src="/html-1.svg"
@@ -14,7 +17,7 @@ function Skills() {
           <h1 className='text-center'>HTML</h1>
         </CardBody>
       </Card>
-      <Card className='bg-stone-900 flex my-2  flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
+      <Card bg="stone.800" className='bg-stone-900 flex my-2  flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
         <CardBody>
           <Image
             src="/css.png"
@@ -24,7 +27,7 @@ function Skills() {
           <h1 className='text-center'>CSS</h1>
         </CardBody>
       </Card>
-      <Card className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
+      <Card bg="stone.800" className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
         <CardBody>
           <Image
             src="/react.jpg"
@@ -34,7 +37,7 @@ function Skills() {
           <h1 className='text-center'>React</h1>
         </CardBody>
       </Card>
-      <Card className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
+      <Card bg="stone.800" className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
         <CardBody>
           <Image
             src="/javascript.png"
@@ -44,7 +47,7 @@ function Skills() {
           <h1 className='text-center'>Javascript</h1>
         </CardBody>
       </Card>
-      <Card className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
+      <Card bg="stone.800" className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
         <CardBody>
           <Image
             src="/next.png"
@@ -55,7 +58,7 @@ function Skills() {
         </CardBody>
 
       </Card>
-      <Card className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
+      <Card bg="stone.800" className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
         <CardBody>
           <Image
             src="/python.jpg"
@@ -65,7 +68,7 @@ function Skills() {
           <h1 className='text-center'>Python</h1>
         </CardBody>
       </Card>
-      <Card className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
+      <Card bg="stone.800" className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
         <CardBody>
           <Image
             src="/sql.png"
@@ -75,7 +78,7 @@ function Skills() {
           <h1 className='text-center'>SQL</h1>
         </CardBody>
       </Card>
-      <Card className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
+      <Card bg="stone.800" className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
         <CardBody>
           <Image
             src="/tailwind.png"
@@ -85,7 +88,7 @@ function Skills() {
           <h1 className='text-center'>Tailwind CSS</h1>
         </CardBody>
       </Card>
-      <Card className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
+      <Card bg="stone.800" className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
         <CardBody>
           <Image
             src="/bootstrap.png"
@@ -95,7 +98,7 @@ function Skills() {
           <h1 className='text-center'>Bootstrap</h1>
         </CardBody>
       </Card>
-      <Card className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
+      <Card bg="stone.800" className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
         <CardBody>
           <Image
             src="/flask.png"
@@ -106,6 +109,8 @@ function Skills() {
         </CardBody>
       </Card>
     </div>
+  
+  
   )
 }
 
