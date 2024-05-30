@@ -12,7 +12,7 @@
 
 @layer base{
   body{
-    @apply bg-black 
+    @apply bg-stone-950 
   }
   h1{
     @apply text-slate-100 font-bold
