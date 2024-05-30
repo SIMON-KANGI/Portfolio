@@ -13,6 +13,7 @@ function Projects() {
         src="/petwill.png"
         width="500"
         height="500"
+        alt="petWill"
       />
       </div>
         <div className='mx-8 w-fit'>
@@ -66,6 +67,7 @@ function Projects() {
         src="/techverse.png"
         width="500"
         height="500"
+        alt="techverse"
       />
       </div>
         <div className='mx-8 w-fit'>
