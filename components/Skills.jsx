@@ -13,6 +13,7 @@ function Skills() {
             src="/html-1.svg"
             width="50"
             height="50"
+            alt="html"
           />
           <h1 className='text-center'>HTML</h1>
         </CardBody>
@@ -23,6 +24,7 @@ function Skills() {
             src="/css.png"
             width="50"
             height="50"
+            alt="css"
           />
           <h1 className='text-center'>CSS</h1>
         </CardBody>
@@ -33,6 +35,7 @@ function Skills() {
             src="/react.jpg"
             width="50"
             height="50"
+            alt="react"
           />
           <h1 className='text-center'>React</h1>
         </CardBody>
@@ -43,6 +46,7 @@ function Skills() {
             src="/javascript.png"
             width="50"
             height="50"
+            alt="javascript"
           />
           <h1 className='text-center'>Javascript</h1>
         </CardBody>
@@ -53,6 +57,7 @@ function Skills() {
             src="/next.png"
             width="50"
             height="50"
+            alt="next Js"
           />
           <h1 className='text-center'>Next Js</h1>
         </CardBody>
@@ -64,6 +69,7 @@ function Skills() {
             src="/python.jpg"
             width="50"
             height="50"
+            alt="python"
           />
           <h1 className='text-center'>Python</h1>
         </CardBody>
@@ -74,6 +80,7 @@ function Skills() {
             src="/sql.png"
             width="50"
             height="50"
+            alt="sql"
           />
           <h1 className='text-center'>SQL</h1>
         </CardBody>
@@ -84,6 +91,7 @@ function Skills() {
             src="/tailwind.png"
             width="50"
             height="50"
+            alt="tailwind"
           />
           <h1 className='text-center'>Tailwind CSS</h1>
         </CardBody>
@@ -94,6 +102,7 @@ function Skills() {
             src="/bootstrap.png"
             width="50"
             height="50"
+            alt="bootstrap"
           />
           <h1 className='text-center'>Bootstrap</h1>
         </CardBody>
@@ -104,6 +113,7 @@ function Skills() {
             src="/flask.png"
             width="50"
             height="50"
+            alt="flask"
           />
           <h1 className='text-center'>Flask</h1>
         </CardBody>
