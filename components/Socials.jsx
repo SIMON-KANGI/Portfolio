@@ -3,13 +3,17 @@
 import React from 'react'
 import { Github, Linkedin, Mail, X } from 'lucide-react';
 import { Card, CardBody, Tooltip } from '@chakra-ui/react';
+import Link from 'next/link';
 function Socials() {
   return (
     <div className='flex'>
     <Card color="rose.600" bg="stone.800" className='bg-stone-800 hover:bg-rose-600 hover:text-slate-200 text-rose-600 p-2 mx-2 rounded-md'>
     <CardBody>
     <Tooltip bg="stone.800" label="Github" color="white" border="2px">
-         <Github />
+    <Link href='https://github.com/SIMON-KANGI'>
+       <Github />
+    </Link>
+       
     </Tooltip>
        
     </CardBody>
