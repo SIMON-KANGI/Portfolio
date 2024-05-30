@@ -30,13 +30,14 @@ const appTheme = extendTheme({
   },
   fonts: {
     heading: `'Inter', sans-serif`,
-    body: `'Inter', sans-serif`,
+    body: `'Raleway', sans-serif`,
   },
   styles: {
     global: {
       body: {
         bg: "stone.900", // Set a default background color
-        color: "stone.900", // Set a defa
+        color: "stone.900",
+        fontFamily: 'Raleway, sans-serif', // Set a defa
       },
     },
   },
