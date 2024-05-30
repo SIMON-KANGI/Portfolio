@@ -19,7 +19,7 @@ function About() {
           <h1 className='text-slate-100 text-xl py-2'>About Me</h1>
           <h1 className='text-3xl'><span className='text-rose-600'>Ambitious,</span> Collaborative <br/> Software 
           <span className='font-medium text-rose-600'>Engineer</span></h1>
-          <article className='text-slate-200 text-xl py-2'>
+          <article className='text-slate-200 text-xl py-2 leading-loose'>
           I am an ambitious and self-driven software developer with a
           strong commitment to learning and adapting to emerging
           technologies and innovative ideas. My passion for coding
