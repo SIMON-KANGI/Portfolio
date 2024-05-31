@@ -28,12 +28,12 @@ export default function Home() {
           <h1 className="lg:text-5xl text-3xl font-extrabold pt-2"><span className='text-rose-600'>Simon </span>Mwangi</h1>
           </div>
           <p className="lg:text-4xl text-center lg:text-left  text-xl py-6 text-primary font-semibold text-rose-500">
-             <ReactRotatingText items={['FrontEnd Developer', 'Backend Developer', 'Fullstack developer']}/>
+             <ReactRotatingText items={['Frontend Developer', 'Backend Developer', 'Fullstack Developer','Junior Developer']}/>
           </p>
-          <article className='text-slate-100 text-xl lg:px-0 px-3 pt-3 w-75 leading-loose'>
-            I am an ambitious and aspiring senior software developer with a passion and interest in developing<br/>
+          <p className='text-slate-100 text-xl lg:px-0 px-3 pt-3 w-75 leading-loose'>
+            I am an ambitious and aspiring senior software developer with a passion and interest in developing
               robust mobile, desktop and web application
-          </article>
+          </p>
           <div className='py-3 lg:mx-0  my-4'>
             <button className='text-center lg:w-fit w-full my-2 lg:mx-3 hover:bg-black hover:border hover:border-rose-600 bg-rose-600 lg:px-8 py-3 rounded-md font-bold text-slate-100'>View Resume</button>
             <button className='text-center lg:w-fit w-full my-2 bg-black border border-rose-600 hover:bg-rose-600 lg:px-10 py-3 rounded-md font-bold text-slate-100'>Contact</button>
