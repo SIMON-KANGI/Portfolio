@@ -58,13 +58,13 @@ export default function Home() {
       <About/>
       </section>
       <section id="services" className='text-center lg:mt-3 my-8' data-aos="fade-up">
-        <h1 className='text-center text-3xl font-medium'>Here are some of the current<br/> <span className='text-rose-600'>services</span> I can offer</h1>
+        <h1 className='text-center lg:text-3xl text-2xl font-medium'>Here are some of the current<br/> <span className='text-rose-600'>services</span> I can offer</h1>
 
         <Services/>
       </section>
       <section id='skills' className='mt-3'>
       <h1 className='text-lg text-center'>I have <span className='text-rose-600'>Learnt</span></h1>
-      <h1 className='text-center text-3xl font-medium'>Professional Skills & Talents</h1>
+      <h1 className='text-center lg:text-3xl text-2xl font-medium'>Professional Skills & Talents</h1>
 
 <Skills/>
       </section>
