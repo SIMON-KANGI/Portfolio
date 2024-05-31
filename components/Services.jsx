@@ -31,7 +31,7 @@ function Services() {
            <Globe  /> 
         </CardHeader>
         
-        <h1 className='text-slate-100 text-xl py-2'>Web Design</h1>
+        <h1 className='text-slate-100 text-xl py-2'>Debuging</h1>
         </CardBody>
       </Card>
     </div>
