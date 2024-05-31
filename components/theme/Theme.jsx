@@ -14,6 +14,7 @@ const appTheme = extendTheme({
       700: '#44403c',
       800: '#292524',
       900: '#1c1917',
+      950:'#1c1817',
     },
     rose: {
         50: '#fff1f2',
@@ -35,7 +36,7 @@ const appTheme = extendTheme({
   styles: {
     global: {
       body: {
-        bg: "stone.900", // Set a default background color
+        bg: "stone.950", // Set a default background color
         color: "stone.900",
         fontFamily: 'Raleway, sans-serif', // Set a defa
       },
