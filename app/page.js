@@ -27,9 +27,9 @@ export default function Home() {
         <h1 className="text-center lg:text-left text-xl">Hello I &apos; m</h1>
           <h1 className="lg:text-5xl text-3xl font-extrabold pt-2"><span className='text-rose-600'>Simon </span>Mwangi</h1>
           </div>
-          <p className="lg:text-4xl text-center lg:text-left  text-xl py-6 text-primary font-semibold text-rose-500">
+          <h2 className="lg:text-4xl  text-center lg:text-left  text-xl py-6 text-primary font-semibold text-rose-500">
              <ReactRotatingText items={['Frontend Developer', 'Backend Developer', 'Fullstack Developer','Junior Developer']}/>
-          </p>
+          </h2>
           <p className='text-slate-100 text-xl lg:px-0 px-3 pt-3 w-75 leading-loose'>
             I am an ambitious and aspiring senior software developer with a passion and interest in developing
               robust mobile, desktop and web application
@@ -57,12 +57,12 @@ export default function Home() {
       <section id='about' className='lg:mx-0 mx-4' data-aos="fade-up">
       <About/>
       </section>
-      <section id="services" className='text-center lg:mt-3 my-8' data-aos="fade-up">
+      <section id="services" className='text-center lg:my-10 my-8' data-aos="fade-up">
         <h1 className='text-center lg:text-3xl text-2xl font-medium'>Here are some of the current<br/> <span className='text-rose-600'>services</span> I can offer</h1>
 
         <Services/>
       </section>
-      <section id='skills' className='mt-3'>
+      <section id='skills' className='mt-6'>
       <h1 className='text-lg text-center'>I have <span className='text-rose-600'>Learnt</span></h1>
       <h1 className='text-center lg:text-3xl text-2xl font-medium'>Professional Skills & Talents</h1>
 
