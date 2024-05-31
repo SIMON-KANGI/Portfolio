@@ -7,7 +7,7 @@ function Contact() {
     <div className='lg:grid grid-cols-2'>
       <Card bg="stone.900" className='lg:mx-0 mx-6'>
       <h1 className='text-xl'>Reach Out</h1>
-  <p className='text-4xl text-slate-200'>I am fully Available for a <span className='text-rose-600'> Job</span> or<br/> 
+  <p className='lg:text-4xl text-2xl text-slate-200'>I am fully Available for a <span className='text-rose-600'> Job</span> or<br/> 
   <span className='text-rose-600'> internship </span>Opportunities</p>
   <p className='text-slate-200 text-xl my-4'>You can reach me via Email or Phone call</p>
   <ul>
