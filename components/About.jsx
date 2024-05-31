@@ -18,8 +18,8 @@ function About() {
         <div>
           <h1 className='text-slate-100 text-xl py-2'>About Me</h1>
           <h1 className='lg:text-3xl text-2xl'><span className='text-rose-600'>Ambitious,</span> Collaborative <br/> Software 
-          <span className='font-medium text-rose-600'>Engineer</span></h1>
-          <article className='text-slate-200 lg:text-xl py-2 leading-loose'>
+            <span className='font-medium text-rose-600'> Engineer</span></h1>
+          <p className='text-slate-200 leading-loose lg:text-xl py-2'>
           I am an ambitious and self-driven software developer with a
           strong commitment to learning and adapting to emerging
           technologies and innovative ideas. My passion for coding
@@ -29,7 +29,7 @@ function About() {
           software development internship where I can leverage my
           skills, contribute to meaningful projects, and further enhance
           my technical expertise.
-          </article>
+          </p>
           <Socials/>
         </div>
     </section>
