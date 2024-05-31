@@ -43,12 +43,12 @@ export default function Home() {
           </div>
          
         </div>
-        <div className='lg:w-fit w-60  lg:order-2  order-1' data-aos="fade-left" >
+        <div className='lg:w-fit w-72 justify-center flex items-center  lg:order-2 lg:mx-20  order-1' data-aos="fade-left" >
          <Image
           src="/ndovu.jpeg"
           width="600"
           height="600"
-          className='rounded-full'
+          className='rounded-full px-50'
           alt="ndovu"
          
          />
