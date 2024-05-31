@@ -35,7 +35,7 @@ function Navbar() {
                 <li className='mx-3'><a href="#services">Services</a></li>
                 <li className='mx-3'><a href="#skills">Skills</a></li>
                 <li className='mx-3'><a href="#projects">Projects</a></li>
-                <li className='mx-3'><a href="#ontact">Contact</a></li>
+                <li className='mx-3'><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <div className='lg:hidden flex'><SideBar/></div>
