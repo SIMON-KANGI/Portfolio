@@ -9,7 +9,7 @@ function Navbar() {
     const handleScroll = () => {
         const navbar = document.querySelector(".header");
         if (navbar) {
-            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            const scrollTop = window.scrollY || document.documentElement.scrollTop;
             if (scrollTop > 0) {
                 navbar.classList.add("navbar-glassmorphism");
                 navbar.classList.add("shadow-md");
