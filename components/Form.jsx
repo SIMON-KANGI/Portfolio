@@ -20,7 +20,7 @@ function Form() {
 
   async function handleSubmit(e) {
     e.preventDefault();
-    const res = await fetch('/api/Clients', {
+    const res = await fetch('/api/clients', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
