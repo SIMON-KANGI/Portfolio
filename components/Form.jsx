@@ -6,13 +6,13 @@ function Form() {
       <form>
       <div className="lg:grid grid-cols-2">
       <div className='flex flex-col mx-3'>
- <label className='text-xl my-4 text-slate-200 font-bold'>
+ <label className='lg:text-xl my-4 text-slate-200 font-bold'>
         Full Name<span className='text-rose-600'>*</span>
            </label> 
         <input type="text" name="name" className='bg-stone-800 rounded-md p-3 text-slate-300' placeholder="Name" required/>
       </div>
            <div className='flex flex-col mx-3'>
-<label className='text-xl my-4 font-bold text-slate-200'>
+<label className='lg:text-xl my-4 font-bold text-slate-200'>
         Email<span className='text-rose-600'>*</span>
             
         </label>   
@@ -22,14 +22,14 @@ function Form() {
         </div>
         <div className="lg:grid grid-cols-2">
         <div className='flex flex-col mx-3'>
-        <label className='text-xl my-4 font-bold text-slate-200'>
+        <label className='lg:text-xl my-4 font-bold text-slate-200'>
         Phone Number<span className='text-rose-600'>*</span>
            
         </label> 
         <input type="number" name="number" placeholder="Phone number" className='bg-stone-800 text-slate-300 rounded-md p-3' required/>
         </div>
       <div className='flex flex-col'>
-<label className='text-xl my-4 font-bold text-slate-200'>
+<label className='lg:text-xl my-4 font-bold text-slate-200'>
         Subject<span className='text-rose-600'>*</span>
          </label>   
         <input type="text" name="subject" placeholder="Subject" className='bg-stone-800 text-slate-300 rounded-md p-3' required/> 
@@ -37,7 +37,7 @@ function Form() {
           
         </div>
         <div className='flex flex-col mx-3'>
-        <label className='text-xl my-4 text-slate-200 font-bold'>Message <span className='text-rose-600'>*</span></label>
+        <label className='lg:text-xl my-4 text-slate-200 font-bold'>Message <span className='text-rose-600'>*</span></label>
  <textarea name="message" placeholder='message' className='bg-stone-800 p-3 text-white rounded-md'/>
         </div>
         <button type="submit" className='lg:w-60 py-3 lg:mx-4 my-4 lg:my-8 bg-rose-600
