@@ -18,7 +18,7 @@ function Projects() {
       </div>
         <div className='mx-8 w-fit'>
         <span className='text-rose-600'>Web App</span>
-          <h1 className='text-4xl my-3'>The Petwill Company <br/>Dashboard</h1>
+          <h1 className='lg:text-4xl text-2xl my-3'>The Petwill Company <br/>Dashboard</h1>
           <article className='text-slate-200 text-xl leading-loose'>
             Collaborated with my group of aspiring developers and came up with a<br/> company dashboard for a 
             construction company. A web application <br/>for the Petwill Company to manage their business
@@ -46,7 +46,7 @@ function Projects() {
         </div>
         <div className='mx-8 w-fit order-2 lg:order-1'>
           <span className='text-rose-600'>Web App</span>
-          <h1 className='text-4xl my-3'>Fresh Picks Groceries</h1>
+          <h1 className='lg:text-4xl text-2xl my-3'>Fresh Picks Groceries</h1>
           <article className='text-slate-200 text-xl leading-loose'>
             Collaborated with my group of aspiring developers and came up with <br /> Fresh Picks web app for a 
             grocery company. A web application <br />for displaying products and online shopping
@@ -72,8 +72,8 @@ function Projects() {
       </div>
         <div className='mx-8 w-fit'>
         <span className='text-rose-600'>Web App</span>
-          <h1 className='text-4xl my-3'>TechVerse</h1>
-          <article className='text-slate-200 text-xl leading-loose'>
+          <h1 className='lg:text-4xl text-2xl my-3'>TechVerse</h1>
+          <article className='text-slate-200 text-xl  leading-loose'>
             Collaborated with my group of aspiring developers and <br/>came up with TechVerse Web Application.
             TechVerse<br/> is a software engineering students motivation app.
           </article>
