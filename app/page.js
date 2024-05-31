@@ -21,7 +21,7 @@ export default function Home() {
   }, []);
   return (
     <main className="w-full">
-      <section id="display" className='grid lg:grid-cols-2 grid-cols-1 w-full my-6 h-screen'>
+      <section id="display" className='grid lg:grid-cols-2 grid-cols-1 justify-center w-full  h-screen'>
         <div id="display-1" data-aos="fade-right"  className=" justify-center flex-col mt-10 overflow-hidden lg:order-1 order-2 w-fit">
         <div className='block text-center lg:text-left  left-0'>
         <h1 className="text-center lg:text-left text-xl">Hello I &apos; m</h1>
@@ -43,12 +43,10 @@ export default function Home() {
           </div>
          
         </div>
-        <div className='lg:w-fit w-72   lg:order-2   order-1' data-aos="fade-left" >
-         <Image
+        <div className='lg:w-fit w-full lg:items-start items-center justify-center flex lg:order-2 order-1' data-aos="fade-left" >
+         <img
           src="/ndovu.jpeg"
-          width="600"
-          height="600"
-          className='rounded-full '
+          className='rounded-full lg:w-5/6 w-60 lg:h-height '
           alt="ndovu"
          
          />
