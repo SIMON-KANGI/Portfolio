@@ -11,7 +11,7 @@ function Contact() {
   <span className='text-rose-600'> internship </span>Opportunities</p>
   <p className='text-slate-200 text-xl my-4'>You can reach me via Email or Phone call</p>
   <ul>
-    <li className='text-xl text-slate-200 my-4 flex'>
+    <li className=' text-xl text-slate-200 my-4 flex'>
     <CircleChevronRight className='text-rose-600' />
     Software Development
     </li>
