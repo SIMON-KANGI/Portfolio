@@ -19,6 +19,9 @@ html{
   h1{
     @apply text-slate-100 font-bold
   }
+  ul li a{
+    @apply hover:text-rose-600
+  }
 }
 .header {
   transition: background-color 0.5s ease-in-out;
