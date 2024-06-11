@@ -49,7 +49,7 @@ export default function Home() {
         <div className='lg:w-fit w-full lg:items-start items-center justify-center flex lg:order-2 order-1' data-aos="fade-left" >
          <img
           src="/ndovu.jpeg"
-          className='rounded-full lg:w-5/6 w-60 lg:h-height '
+          className='rounded-full lg:w-5/6 w-72 lg:h-height '
           alt="ndovu"
          
          />
