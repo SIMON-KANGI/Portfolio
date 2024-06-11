@@ -1,6 +1,6 @@
 import mongoose, { Schema } from 'mongoose';
 
-// Ensure mongoose is connected
+//connect mongoose
 if (!mongoose.connections[0].readyState) {
   mongoose.connect(process.env.MONGODB_URI, {
     useNewUrlParser: true,
