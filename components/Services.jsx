@@ -12,7 +12,7 @@ function Services() {
         <h1 className='text-slate-100 text-center text-xl py-2'>
           Web Design
         </h1>
-        <p className='text-slate-100 text-xl'>Design responsive webpages for all usage</p>
+        <p className='text-slate-100 text-xl'>Design responsive webpages for any use. ie Eccomerce Websites, Blogs etc</p>
       </CardBody>
     </Card>
       <Card color="rose.600" bg="stone.800" className='bg-stone-900 flex  my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-2 mx-2 rounded-md'>
@@ -32,6 +32,7 @@ function Services() {
         </CardHeader>
         
         <h1 className='text-slate-100 text-xl py-2'>Debuging</h1>
+        <p className='text-slate-100 text-xl leading-loose'>Perform debugging on written code and solve issues related to it.</p>
         </CardBody>
       </Card>
     </div>
