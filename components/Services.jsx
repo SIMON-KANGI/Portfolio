@@ -1,6 +1,6 @@
 import { Card, CardBody, CardHeader } from '@chakra-ui/react'
 import React from 'react'
-import { Globe,CodeXml } from 'lucide-react'
+import { Globe,CodeXml, Bug } from 'lucide-react'
 function Services() {
   return (
     <div className='grid lg:grid-cols-3 grid-cols-1 lg:mx-0 mx-3 mt-3'>
@@ -28,7 +28,7 @@ function Services() {
       <Card color="rose.600" bg="stone.800" className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-2 mx-2 rounded-md'>
         <CardBody>
         <CardHeader className='flex justify-center items-center'>
-           <Globe  /> 
+        <Bug />
         </CardHeader>
         
         <h1 className='text-slate-100 text-xl py-2'>Debuging</h1>
