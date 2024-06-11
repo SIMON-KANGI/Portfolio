@@ -14,6 +14,7 @@ function Skills() {
             width="50"
             height="50"
             alt="html"
+            className='rounded-full '
           />
           <h1 className='text-center'>HTML</h1>
         </CardBody>
@@ -25,6 +26,7 @@ function Skills() {
             width="50"
             height="50"
             alt="css"
+            className='rounded-full '
           />
           <h1 className='text-center'>CSS</h1>
         </CardBody>
@@ -36,6 +38,7 @@ function Skills() {
             width="50"
             height="50"
             alt="react"
+            className='rounded-full '
           />
           <h1 className='text-center'>React</h1>
         </CardBody>
@@ -47,6 +50,7 @@ function Skills() {
             width="50"
             height="50"
             alt="javascript"
+            className='rounded-full '
           />
           <h1 className='text-center'>Javascript</h1>
         </CardBody>
@@ -58,6 +62,7 @@ function Skills() {
             width="50"
             height="50"
             alt="next Js"
+            className='rounded-full '
           />
           <h1 className='text-center'>Next Js</h1>
         </CardBody>
@@ -70,6 +75,7 @@ function Skills() {
             width="50"
             height="50"
             alt="python"
+            className='rounded-full '
           />
           <h1 className='text-center'>Python</h1>
         </CardBody>
@@ -81,6 +87,7 @@ function Skills() {
             width="50"
             height="50"
             alt="sql"
+            className='rounded-full '
           />
           <h1 className='text-center'>SQL</h1>
         </CardBody>
@@ -92,6 +99,7 @@ function Skills() {
             width="50"
             height="50"
             alt="tailwind"
+            className='rounded-full '
           />
           <h1 className='text-center'>Tailwind CSS</h1>
         </CardBody>
@@ -103,6 +111,7 @@ function Skills() {
             width="50"
             height="50"
             alt="bootstrap"
+            className='rounded-full '
           />
           <h1 className='text-center'>Bootstrap</h1>
         </CardBody>
@@ -114,6 +123,7 @@ function Skills() {
             width="50"
             height="50"
             alt="flask"
+            className='rounded-full '
           />
           <h1 className='text-center'>Flask</h1>
         </CardBody>
