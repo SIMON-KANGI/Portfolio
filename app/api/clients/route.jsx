@@ -1,4 +1,4 @@
-import Client from "@/[models]/Client";
+import Client from "@/models/Client";
 import { NextResponse } from "next/server";
 
 export async function POST(req){
