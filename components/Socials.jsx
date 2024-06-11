@@ -17,7 +17,7 @@ function Socials() {
     </Tooltip>
        
    <Tooltip bg="stone.800" label="linkedin"  color="white" border="2px">
-    <Link href="/" color="rose.600" bg="stone.800" className='bg-stone-800 flex flex-col justify-center items-center  hover:bg-rose-600 hover:text-slate-200  text-rose-600 p-3  mx-2 rounded-md'>
+    <Link href="https://www.linkedin.com/in/simon-mwangi-b22925200/" color="rose.600" bg="stone.800" className='bg-stone-800 flex flex-col justify-center items-center  hover:bg-rose-600 hover:text-slate-200  text-rose-600 p-3  mx-2 rounded-md'>
       <Linkedin />
     </Link>
          
