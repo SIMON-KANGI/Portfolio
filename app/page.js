@@ -39,9 +39,9 @@ export default function Home() {
             <button  className='text-center lg:w-fit w-full my-2 lg:mx-3 hover:bg-black hover:border hover:border-rose-600 bg-rose-600 lg:px-8 py-3 rounded-md font-bold text-slate-100'>
             <Link href="/CV.pdf" target="_blank"> View Resume</Link>
            </button>
-            <button className='text-center lg:w-fit w-full my-2 bg-black border border-rose-600 hover:bg-rose-600 lg:px-10 py-3 rounded-md font-bold text-slate-100'>Contact</button>
+            <button className='text-center lg:w-fit w-full lg:my-2 mb-4 bg-black border border-rose-600 hover:bg-rose-600 lg:px-10 py-3 rounded-md font-bold text-slate-100'>Contact</button>
           </div>
-          <div>
+          <div className=''>
             <Socials/>
           </div>
          

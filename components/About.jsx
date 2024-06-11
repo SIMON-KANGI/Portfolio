@@ -5,7 +5,7 @@ import Socials from './Socials'
 function About() {
   return (
     
-    <section className="grid lg:grid-cols-2 grid-cols-1">
+    <section className="grid my-16 lg:grid-cols-2 grid-cols-1">
        <div className='border-y-4 w-fit border-gray-800 p-2 rounded-md hover:border-rose-600'>
       <Image
         src="/ndovu.jpeg"
