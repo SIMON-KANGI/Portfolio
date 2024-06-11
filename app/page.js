@@ -10,6 +10,7 @@ import 'aos/dist/aos.css';
 import Skills from '@/components/Skills';
 import Projects from '@/components/Projects';
 import Contact from '@/components/Contact';
+import Link from 'next/link';
 
 export default function Home() {
   useEffect(() => {
@@ -35,7 +36,9 @@ export default function Home() {
               robust mobile, desktop and web application
           </p>
           <div className='py-3 lg:mx-0  my-4'>
-            <button className='text-center lg:w-fit w-full my-2 lg:mx-3 hover:bg-black hover:border hover:border-rose-600 bg-rose-600 lg:px-8 py-3 rounded-md font-bold text-slate-100'>View Resume</button>
+            <button  className='text-center lg:w-fit w-full my-2 lg:mx-3 hover:bg-black hover:border hover:border-rose-600 bg-rose-600 lg:px-8 py-3 rounded-md font-bold text-slate-100'>
+            <Link href="/CV.pdf" target="_blank"> View Resume</Link>
+           </button>
             <button className='text-center lg:w-fit w-full my-2 bg-black border border-rose-600 hover:bg-rose-600 lg:px-10 py-3 rounded-md font-bold text-slate-100'>Contact</button>
           </div>
           <div>
