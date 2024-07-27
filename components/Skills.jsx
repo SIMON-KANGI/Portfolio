@@ -8,7 +8,7 @@ function Skills() {
         <div className='grid lg:grid-cols-6 grid-cols-2 p-4'>
   
       <Card bg="stone.800" className=' flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
-        <CardBody>
+        <CardBody className="flex flex-col items-center justify-center">
           <Image
             src="/html.png"
             width="50"
@@ -20,7 +20,7 @@ function Skills() {
         </CardBody>
       </Card>
       <Card bg="stone.800" className='bg-stone-900 flex my-2  flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
-        <CardBody>
+        <CardBody className="flex flex-col items-center justify-center">
           <Image
             src="/css.png"
             width="50"
@@ -32,19 +32,32 @@ function Skills() {
         </CardBody>
       </Card>
       <Card bg="stone.800" className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
-        <CardBody>
+        <CardBody className="flex flex-col items-center justify-center">
           <Image
             src="/react.png"
             width="50"
             height="50"
             alt="react"
-            className='rounded-full '
+            className=''
           />
           <h1 className='text-center font-bold text-xl pt-4'>React</h1>
         </CardBody>
       </Card>
+     
       <Card bg="stone.800" className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
-        <CardBody className='items-center justify-center'>
+        <CardBody className="flex flex-col items-center justify-center">
+          <Image
+            src="/javascript.png"
+            width="50"
+            height="50"
+            alt="javascript"
+            className='rounded-full '
+          />
+          <h1 className='text-center font-bold text-xl pt-4'>Javascript</h1>
+        </CardBody>
+      </Card> 
+      <Card bg="stone.800" className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
+        <CardBody className="flex flex-col items-center justify-center">
           <Image
             src="/react.png"
             width="50"
@@ -56,74 +69,63 @@ function Skills() {
         </CardBody>
       </Card>
       <Card bg="stone.800" className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
-        <CardBody>
-          <Image
-            src="/javascript.png"
-            width="50"
-            height="50"
-            alt="javascript"
-            className='rounded-full '
-          />
-          <h1 className='text-center font-bold text-xl pt-4'>Javascript</h1>
-        </CardBody>
-      </Card>
-      <Card bg="stone.800" className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
-        <CardBody>
+        <CardBody className="flex flex-col items-center justify-center">
           <Image
             src="/next.png"
             width="50"
             height="50"
             alt="next Js"
-            className='rounded-full '
+            className='rounded-full text-center'
           />
           <h1 className='text-center font-bold text-xl pt-4'>Next Js</h1>
         </CardBody>
 
       </Card>
       <Card bg="stone.800" className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
-        <CardBody>
+        <CardBody className="flex flex-col items-center justify-center">
           <Image
             src="/python.jpg"
             width="50"
             height="50"
             alt="python"
-            className='rounded-full '
+            className='rounded-full text-center '
           />
           <h1 className='text-center font-bold text-xl pt-4'>Python</h1>
         </CardBody>
       </Card>
       <Card bg="stone.800" className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
-        <CardBody>
+        <CardBody className="flex flex-col items-center justify-center">
           <Image
             src="/sql.png"
             width="70"
             height="70"
             alt="sql"
-            className=' '
+            className='text-center'
           />
           <h1 className='text-center font-bold text-xl pt-4'>My SQL</h1>
         </CardBody>
       </Card>
+      <Card bg="stone.800" className="bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600 text-rose-600 p-4 mx-2 rounded-md">
+  <CardBody className="flex flex-col items-center justify-center">
+    <Image
+      src="/tailwind.png"
+      width="50"
+      height="50"
+      alt="tailwind"
+      className="text-center"
+    />
+    <h1 className="text-center font-bold text-xl pt-4">Tailwind CSS</h1>
+  </CardBody>
+</Card>
+
       <Card bg="stone.800" className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
-        <CardBody className='items-center'>
-          <Image
-            src="/tailwind.png"
-            width="50"
-            height="50"
-            alt="tailwind"
-            className='items-center'
-          />
-          <h1 className='text-center font-bold text-xl pt-4'>Tailwind CSS</h1>
-        </CardBody>
-      </Card>
-      <Card bg="stone.800" className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
-        <CardBody>
+        <CardBody className="flex flex-col items-center justify-center">
           <Image
             src="/bootstrap.png"
             width="50"
             height="50"
             alt="bootstrap"
-            className='rounded-full '
+            className='text-center '
           />
           <h1 className='text-center font-bold text-xl pt-4'>Bootstrap</h1>
         </CardBody>
