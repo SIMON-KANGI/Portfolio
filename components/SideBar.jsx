@@ -16,7 +16,7 @@ function SideBar() {
       <Drawer bg="stone.900" onClose={onClose} isOpen={isOpen} size="md" placement='left'>
         <DrawerOverlay />
         <DrawerContent bg="stone.900">
-        <DrawerCloseButton color="rose.600"/>
+        <DrawerCloseButton color="rose.600" />
           <DrawerHeader>
             <article className='text-stone-400 text-xl lg:px-0 px-3 pt-3 w-75 leading-loose'>
               I am an ambitious and aspiring senior software developer with a passion and interest in developing
