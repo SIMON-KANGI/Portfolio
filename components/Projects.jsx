@@ -136,7 +136,7 @@ function Projects() {
         <span className='text-rose-600'>Mobile App</span>
           <h1 className='lg:text-4xl text-2xl my-3'>REPAY MOBILE</h1>
           <article className='text-slate-200 text-xl  leading-loose'>
-          Transformed the Repay web Application to a mobile  App. This is a comprehensive solution designed to streamline <br/>and enhance the management of 
+          Transformed the Repay web Application to a mobile  App. This is a comprehensive solution designed to streamline and enhance the management of 
           personal and business accounts. This application <br/>provides users with a centralized platform to track, 
           manage, and analyze their financial <br/>activities with ease and efficiency.
           </article>
