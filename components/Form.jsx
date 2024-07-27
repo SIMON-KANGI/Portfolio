@@ -61,7 +61,7 @@ function Form() {
     });
   }, []);
   return (
-    <div data-aos="fade-left">
+    <div>
       <form onSubmit={handleSubmit} method="POST">
         <div className="lg:grid grid-cols-2">
           <div className="flex flex-col mx-3">
