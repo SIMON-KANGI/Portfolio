@@ -10,13 +10,13 @@ function Skills() {
       <Card bg="stone.800" className=' flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
         <CardBody>
           <Image
-            src="/html-1.svg"
+            src="/html.png"
             width="50"
             height="50"
             alt="html"
             className='rounded-full '
           />
-          <h1 className='text-center'>HTML</h1>
+          <h1 className='text-center font-bold text-xl pt-4'>HTML</h1>
         </CardBody>
       </Card>
       <Card bg="stone.800" className='bg-stone-900 flex my-2  flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
@@ -28,19 +28,31 @@ function Skills() {
             alt="css"
             className='rounded-full '
           />
-          <h1 className='text-center'>CSS</h1>
+          <h1 className='text-center font-bold text-xl pt-4'>CSS</h1>
         </CardBody>
       </Card>
       <Card bg="stone.800" className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
         <CardBody>
           <Image
-            src="/react.jpg"
+            src="/react.png"
             width="50"
             height="50"
             alt="react"
             className='rounded-full '
           />
-          <h1 className='text-center'>React</h1>
+          <h1 className='text-center font-bold text-xl pt-4'>React</h1>
+        </CardBody>
+      </Card>
+      <Card bg="stone.800" className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
+        <CardBody className='items-center justify-center'>
+          <Image
+            src="/react.png"
+            width="50"
+            height="50"
+            alt="react"
+            className='rounded-full '
+          />
+          <h1 className='text-center font-bold text-xl pt-4'>React Native</h1>
         </CardBody>
       </Card>
       <Card bg="stone.800" className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
@@ -52,7 +64,7 @@ function Skills() {
             alt="javascript"
             className='rounded-full '
           />
-          <h1 className='text-center'>Javascript</h1>
+          <h1 className='text-center font-bold text-xl pt-4'>Javascript</h1>
         </CardBody>
       </Card>
       <Card bg="stone.800" className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
@@ -64,7 +76,7 @@ function Skills() {
             alt="next Js"
             className='rounded-full '
           />
-          <h1 className='text-center'>Next Js</h1>
+          <h1 className='text-center font-bold text-xl pt-4'>Next Js</h1>
         </CardBody>
 
       </Card>
@@ -77,31 +89,31 @@ function Skills() {
             alt="python"
             className='rounded-full '
           />
-          <h1 className='text-center'>Python</h1>
+          <h1 className='text-center font-bold text-xl pt-4'>Python</h1>
         </CardBody>
       </Card>
       <Card bg="stone.800" className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
         <CardBody>
           <Image
             src="/sql.png"
-            width="50"
-            height="50"
+            width="70"
+            height="70"
             alt="sql"
-            className='rounded-full '
+            className=' '
           />
-          <h1 className='text-center'>SQL</h1>
+          <h1 className='text-center font-bold text-xl pt-4'>My SQL</h1>
         </CardBody>
       </Card>
       <Card bg="stone.800" className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
-        <CardBody>
+        <CardBody className='items-center'>
           <Image
             src="/tailwind.png"
             width="50"
             height="50"
             alt="tailwind"
-            className='rounded-full '
+            className='items-center'
           />
-          <h1 className='text-center'>Tailwind CSS</h1>
+          <h1 className='text-center font-bold text-xl pt-4'>Tailwind CSS</h1>
         </CardBody>
       </Card>
       <Card bg="stone.800" className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
@@ -113,7 +125,7 @@ function Skills() {
             alt="bootstrap"
             className='rounded-full '
           />
-          <h1 className='text-center'>Bootstrap</h1>
+          <h1 className='text-center font-bold text-xl pt-4'>Bootstrap</h1>
         </CardBody>
       </Card>
       <Card bg="stone.800" className='bg-stone-900 flex my-2 flex-col justify-center items-center hover:border hover:border-rose-600  text-rose-600 p-4 mx-2 rounded-md'>
@@ -123,9 +135,9 @@ function Skills() {
             width="50"
             height="50"
             alt="flask"
-            className='rounded-full '
+            className='rounded-full'
           />
-          <h1 className='text-center'>Flask</h1>
+          <h1 className='text-center font-bold text-xl pt-4'>Flask</h1>
         </CardBody>
       </Card>
     </div>
