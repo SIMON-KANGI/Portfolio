@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Send } from 'lucide-react';
 import { useToast } from '@chakra-ui/react';
 import { useRouter } from 'next/navigation';
@@ -53,9 +53,15 @@ function Form() {
       });
     }
   }
-
+  useEffect(() => {
+    AOS.init({
+      duration: 500,
+      easing: 'ease-in-out',
+      once: false
+    });
+  }, []);
   return (
-    <div>
+    <div data-aos="fade-left">
       <form onSubmit={handleSubmit} method="POST">
         <div className="lg:grid grid-cols-2">
           <div className="flex flex-col mx-3">
