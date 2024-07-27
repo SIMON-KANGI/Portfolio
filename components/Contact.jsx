@@ -38,7 +38,7 @@ function Contact() {
     </li>
   </ul>
       </Card>
-      <Card bg="stone.900" data-aos="fade-left">
+      <Card bg="stone.900">
         <CardBody>
           <Form/>
         </CardBody>
