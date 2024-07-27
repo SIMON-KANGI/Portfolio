@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { Send } from 'lucide-react';
 import { useToast } from '@chakra-ui/react';
 import { useRouter } from 'next/navigation';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function Form() {
   const toast = useToast();
   const router = useRouter();
