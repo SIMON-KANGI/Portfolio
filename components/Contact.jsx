@@ -1,11 +1,20 @@
 import { Card, CardBody } from '@chakra-ui/react'
-import React from 'react'
+import React, {useEffect} from 'react'
 import { CircleChevronRight } from 'lucide-react'
 import Form from './Form'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function Contact() {
+  useEffect(() => {
+    AOS.init({
+      duration: 500,
+      easing: 'ease-in-out',
+      once: false
+    });
+  }, []);
   return (
     <div className='lg:grid grid-cols-2'>
-      <Card bg="stone.900" className='lg:mx-0 mx-6'>
+      <Card bg="stone.900" className='lg:mx-0 mx-6' data-aos="fade-right">
       <h1 className='text-xl'>Reach Out</h1>
   <p className='lg:text-4xl text-2xl text-slate-200'>I am fully Available for a <span className='text-rose-600'> Job</span> or<br/> 
   <span className='text-rose-600'> internship </span>Opportunities</p>
@@ -29,7 +38,7 @@ function Contact() {
     </li>
   </ul>
       </Card>
-      <Card bg="stone.900">
+      <Card bg="stone.900" data-aos="fade-left">
         <CardBody>
           <Form/>
         </CardBody>
