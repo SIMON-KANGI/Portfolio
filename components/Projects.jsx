@@ -91,8 +91,15 @@ function Projects() {
       </Card>
       <Card bg="stone.900" className='my-16' >
       <CardBody className='lg:flex'>
-     
-        <div className='mx-8 w-fit order-1 lg:order-2'>
+      <div className='border-2 border-stone-800 p-8 hover:border-rose-600 lg:order-2 order-1 rounded-md'>
+        <Image
+        src="/repay.png"
+        width="500"
+        height="500"
+        alt="techverse"
+      />
+      </div>
+        <div className='mx-8 w-fit lg:order-1 order-last '>
         <span className='text-rose-600'>Web App</span>
           <h1 className='lg:text-4xl text-2xl my-3'>REPAY</h1>
           <article className='text-slate-200 text-xl  leading-loose'>
@@ -108,14 +115,7 @@ function Projects() {
           </Tooltip>
           
         </div> 
-        <div className='border-2 border-stone-800 p-8 hover:border-rose-600 lg:order-2 order-1 rounded-md'>
-        <Image
-        src="/repay.png"
-        width="500"
-        height="500"
-        alt="techverse"
-      />
-      </div>
+      
         
       </CardBody>
       
@@ -124,7 +124,7 @@ function Projects() {
       <CardBody className='lg:flex'>
      
         
-        <div className='border-2 border-stone-800 p-8 hover:border-rose-600 lg:order-2 order-1 rounded-md'>
+        <div className='border-2 border-stone-800 p-8 hover:border-rose-600 lg:order-1 order-2 rounded-md'>
         <Image
         src="/repaymobile.png"
         width="500"
@@ -132,7 +132,7 @@ function Projects() {
         alt="techverse"
       />
       </div>
-        <div className='mx-8 w-fit order-1 lg:order-2'>
+        <div className='mx-8 w-fit lg:order-2'>
         <span className='text-rose-600'>Mobile App</span>
           <h1 className='lg:text-4xl text-2xl my-3'>REPAY MOBILE</h1>
           <article className='text-slate-200 text-xl  leading-loose'>
