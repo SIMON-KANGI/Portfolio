@@ -3,6 +3,7 @@
 import React,{useEffect} from 'react'
 import SideBar from './SideBar'
 import Link from 'next/link';
+import Hire from './hire';
 
 function Navbar() {
   useEffect(() => {
@@ -28,14 +29,15 @@ function Navbar() {
     
     <header className='header flex w-full p-6 sticky  top-0 z-10 lg:justify-around justify-between' id="header">
     <Link href="/" className='text-slate-100 font-bold text-2xl font-serif'><span className='text-rose-600'>Simon </span>Mwangi</Link>
-        <nav className='text-center lg:flex hidden' >
-            <ul className='flex text-white font-bold'>
+        <nav className='text-center items-center lg:flex hidden' >
+            <ul className='flex text-white items-center font-bold'>
                 <li className='mx-3'><a href="/">Home</a></li>
                 <li className='mx-3'><a href="#about">About</a></li>
                 <li className='mx-3'><a href="#services">Services</a></li>
                 <li className='mx-3'><a href="#skills">Skills</a></li>
                 <li className='mx-3'><a href="#projects">Projects</a></li>
                 <li className='mx-3'><a href="#contact">Contact</a></li>
+                <Hire/>
             </ul>
         </nav>
         <div className='lg:hidden flex'><SideBar/></div>
