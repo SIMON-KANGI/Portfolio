@@ -10,7 +10,7 @@ function Projects() {
     AOS.init({
       duration: 200,
       easing: 'ease-in-out',
-      once: false
+      once: true
     });
   }, []);
   return (
