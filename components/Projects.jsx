@@ -15,7 +15,7 @@ function Projects() {
   }, []);
   return (
     <div className='my-6'>
-      <Card bg="stone.900" className='my-16' data-aos="fade-right">
+      <Card bg="stone.900" className='my-16' data-aos="fade-right" data-aos-offset='500'>
       <CardBody className='lg:flex'>
       <div className='border-2 border-stone-800 p-8 hover:border-rose-600 rounded-md'>
         <Image
