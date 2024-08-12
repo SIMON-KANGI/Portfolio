@@ -9,11 +9,11 @@ function Contact() {
     AOS.init({
       duration: 500,
       easing: 'ease-in-out',
-      once: false
+      once:true
     });
   }, []);
   return (
-    <div className='lg:grid grid-cols-2' data-aos="fade-up">
+    <div className='lg:grid grid-cols-2' data-aos="zoom-in">
       <Card bg="stone.900" className='lg:mx-0 mx-6'>
       <h1 className='text-xl'>Reach Out</h1>
   <p className='lg:text-4xl text-2xl text-slate-200'>I am fully Available for a <span className='text-rose-600'> Job</span> or<br/> 
