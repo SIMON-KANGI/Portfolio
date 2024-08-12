@@ -55,7 +55,7 @@ export default function Home() {
          />
         </div>
       </section>
-      <section id='about' className='lg:mx-0 mx-4' data-aos="fade-right">
+      <section id='about' className='lg:mx-0 mx-4' >
       <About/>
       </section>
       <section id="services" className='text-center lg:my-10 my-8' data-aos="fade-up">
