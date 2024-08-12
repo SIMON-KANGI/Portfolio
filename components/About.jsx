@@ -1,21 +1,30 @@
 import Image from 'next/image'
-import React from 'react'
+import React,{useEffect} from 'react'
 import Socials from './Socials'
-
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 function About() {
+  useEffect(() => {
+    AOS.init({
+      duration: 500,
+      easing: 'ease-in-out',
+      once: false
+    });
+  }, []);
   return (
     
     <section className="grid my-16 lg:grid-cols-2 grid-cols-1">
-       <div className='border-y-4 w-fit border-gray-800 p-2 rounded-md hover:border-rose-600'>
+       <div className='border-y-4 w-fit border-gray-800 p-2 rounded-md hover:border-rose-600' data-aos="fade-up">
       <Image
         src="/ndovu.jpeg"
         width={500}
         height={500}
         objectFit="cover"
         alt="ndovu"
+        
       />
     </div>
-        <div>
+        <div data-aos="fade-left">
           <h1 className='text-slate-100 text-xl py-2'>About Me</h1>
           <h1 className='lg:text-3xl text-2xl'><span className='text-rose-600'>Ambitious,</span> Collaborative <br/> Software 
             <span className='font-medium text-rose-600'> Engineer</span></h1>
