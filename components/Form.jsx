@@ -57,7 +57,7 @@ function Form() {
     AOS.init({
       duration: 500,
       easing: 'ease-in-out',
-      once: false
+      once: true
     });
   }, []);
   return (
