@@ -1,12 +1,21 @@
 import { Card, CardBody, Tooltip } from '@chakra-ui/react'
 import Image from 'next/image'
-import React from 'react'
+import React,{useEffect} from 'react'
 import { ArrowUpRight } from 'lucide-react'
 import Link from 'next/link'
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 function Projects() {
+  useEffect(() => {
+    AOS.init({
+      duration: 200,
+      easing: 'ease-in-out',
+      once: false
+    });
+  }, []);
   return (
     <div className='my-6'>
-      <Card bg="stone.900" className='my-16'>
+      <Card bg="stone.900" className='my-16' data-aos="fade-right">
       <CardBody className='lg:flex'>
       <div className='border-2 border-stone-800 p-8 hover:border-rose-600 rounded-md'>
         <Image
@@ -34,7 +43,7 @@ function Projects() {
       </CardBody>
       
       </Card>
-      <Card bg="stone.900" className='my-16'>
+      <Card bg="stone.900" className='my-16' data-aos="fade-left">
       <CardBody className='lg:flex flex-col lg:flex-row'>
         <div className='border-2 border-stone-800 p-8 hover:border-rose-600 rounded-md order-1 lg:order-2'>
           <Image
@@ -60,7 +69,7 @@ function Projects() {
         </div>
       </CardBody>
     </Card>
-      <Card bg="stone.900" className='my-16' >
+      <Card bg="stone.900" className='my-16' data-aos="fade-right">
       <CardBody className='lg:flex'>
       <div className='border-2 border-stone-800 p-8 hover:border-rose-600 rounded-md'>
         <Image
@@ -89,7 +98,7 @@ function Projects() {
       </CardBody>
       
       </Card>
-      <Card bg="stone.900" className='my-16' >
+      <Card bg="stone.900" className='my-16' data-aos="fade-left" >
       <CardBody className='lg:flex'>
       <div className='border-2 border-stone-800 p-8 hover:border-rose-600 lg:order-2 order-1 rounded-md'>
         <Image
@@ -120,7 +129,7 @@ function Projects() {
       </CardBody>
       
       </Card>
-      <Card bg="stone.900" className='my-16' >
+      <Card bg="stone.900" className='my-16' data-aos="fade-right" >
       <CardBody className='lg:flex'>
      
         
