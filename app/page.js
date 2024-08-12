@@ -22,7 +22,7 @@ export default function Home() {
   }, []);
   return (
     <main className="w-full">
-      <section id="display" className='grid lg:grid-cols-2 grid-cols-1 justify-center w-full  h-screen'>
+      <section id="display" className='grid lg:grid-cols-2 grid-cols-1 justify-center lg:p-24 p-0 w-full  h-full'>
         <div id="display-1" data-aos="fade-right"  className=" justify-center flex-col mt-10 overflow-hidden lg:order-1 order-2 w-fit">
         <div className='block text-center lg:text-left  left-0'>
         <h1 className="text-center lg:text-left text-xl">Hello I &apos; m</h1>
@@ -35,11 +35,11 @@ export default function Home() {
             I am an ambitious and aspiring senior software developer with a passion and interest in developing
               robust mobile, desktop and web application
           </p>
-          <div className='py-3 lg:mx-0  my-4'>
-            <button  className='text-center lg:w-fit w-full my-2 lg:mx-3 hover:bg-black hover:border hover:border-rose-600 bg-rose-600 lg:px-8 py-3 rounded-md font-bold text-slate-100'>
+          <div className='py-3 lg:mx-0   my-4'>
+            <button  className='text-center lg:w-fit w-full my-2 lg:mx-3 mx-3 hover:bg-black hover:border hover:border-rose-600 bg-rose-600 lg:px-8 py-3 rounded-md font-bold text-slate-100'>
             <Link href="/CV.pdf" target="_blank"> View Resume</Link>
            </button>
-            <button className='text-center lg:w-fit w-full lg:my-2 mb-4 bg-black border border-rose-600 hover:bg-rose-600 lg:px-10 py-3 rounded-md font-bold text-slate-100'>Contact</button>
+            <button className='text-center lg:w-fit w-full mx-3 lg:my-2 mb-4 bg-black border border-rose-600 hover:bg-rose-600 lg:px-10 py-3 rounded-md font-bold text-slate-100'>Contact</button>
           </div>
           <div className=''>
             <Socials/>
