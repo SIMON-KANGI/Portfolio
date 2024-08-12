@@ -35,7 +35,7 @@ export default function Home() {
             I am an ambitious and aspiring senior software developer with a passion and interest in developing
               robust mobile, desktop and web application
           </p>
-          <div className='py-3 lg:mx-0   my-4'>
+          <div className='py-3 lg:mx-0 my-4'>
             <button  className='text-center lg:w-fit w-full my-2 lg:mx-3 mx-3 hover:bg-black hover:border hover:border-rose-600 bg-rose-600 lg:px-8 py-3 rounded-md font-bold text-slate-100'>
             <Link href="/CV.pdf" target="_blank"> View Resume</Link>
            </button>
