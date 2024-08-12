@@ -17,12 +17,12 @@ export default function Home() {
     AOS.init({
       duration: 500,
       easing: 'ease-in-out',
-      once: false
+      once: true
     });
   }, []);
   return (
     <main className="w-full">
-      <section id="display" className='grid lg:grid-cols-2 grid-cols-1 justify-center lg:p-24 p-0 w-full  h-full'>
+      <section id="display" className='grid lg:grid-cols-2 grid-cols-1 justify-center lg:p-24 p-0 w-full  h-screen'>
         <div id="display-1" data-aos="fade-right"  className=" justify-center flex-col mt-10 overflow-hidden lg:order-1 order-2 w-fit">
         <div className='block text-center lg:text-left  left-0'>
         <h1 className="text-center lg:text-left text-xl">Hello I &apos; m</h1>
