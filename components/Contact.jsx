@@ -30,7 +30,7 @@ function Contact() {
     </li>
     <li className='text-xl text-slate-200 my-4 flex'>
     <CircleChevronRight className='text-rose-600' />
-    Internship
+    Job Opportunity
     </li>
     <li className='text-xl text-slate-200 my-4 flex'>
     <CircleChevronRight className='text-rose-600' />
