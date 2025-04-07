@@ -35,7 +35,7 @@ function About() {
           and problem-solving, combined with a collaborative
           mindset, allows me to excel both as an individual
           contributor and as a valuable team player. I am seeking a
-          software development internship where I can leverage my
+          software development jop opportunity where I can leverage my
           skills, contribute to meaningful projects, and further enhance
           my technical expertise.
           </p>
